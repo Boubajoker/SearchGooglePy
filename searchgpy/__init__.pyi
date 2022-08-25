@@ -35,8 +35,10 @@ google_search_engine.search_text('Hello World !')
 This piece of code will search on google the sentence : `Hello World !`. Take a look at the `Table of Content` at https://www.github.com/Boubajoker/SearchGooglePy/blob/master/FEATURE_CONTRIBUTIONS.md or at https://boubajoker.github.io/SearchGooglePy/Link=Table_Of_Content for more content !
 
 """
+from typing import *
+
 class GoogleSearchEngine:
-    def __init__(self) -> None: 
+    def __init__(self) -> Any: 
         """
         ### `GoogleSearchEngine` SuperClass:
 
@@ -44,7 +46,7 @@ class GoogleSearchEngine:
         """
         pass
 
-    def search_text(self, text: str=None) -> None: 
+    def search_text(self, text: str=None) -> Any: 
         """
         ### `search_text` function:
 
@@ -54,7 +56,7 @@ class GoogleSearchEngine:
         """
         pass
     
-    def search_img(self, text: str, download: str = False) -> None:
+    def search_img(self, text: str, download: str = False) -> Any:
         """
         ### `search_img` function:
 
@@ -64,7 +66,7 @@ class GoogleSearchEngine:
         """
         pass
     
-    def search_news(self, text: str) -> None:
+    def search_news(self, text: str) -> Any:
         """
         ### `search_news` function:
 

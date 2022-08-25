@@ -6,3 +6,7 @@
 - v0.0.2 Alpha A-1 {master} {
     - Added Some Feature !
 }
+- v0.0.3 Alpha A-1 {master} {
+    - Updated Github / Pypi Docs :books: :octocat: !
+    - Base Web-Documentation builded and hosted (not yet ready, sorry) !
+}

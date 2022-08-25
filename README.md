@@ -28,5 +28,13 @@ To install SearchGooglePy follow the steps behavior:
 1. Open the `Command Prompt` or `PowerShell`.
 2. type on your prompt:
 ```powershell
-pip install -m SearchGooglePy
+pip install SearchGooglePy
+```
+
+### Linux / MacOS
+
+1. Open the `Shell`
+2. type on your prompt:
+```
+python3 -m pip install SearchGooglePy
 ```
