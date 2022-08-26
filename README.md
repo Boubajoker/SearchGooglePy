@@ -25,8 +25,8 @@ To install SearchGooglePy follow the steps behavior:
 
 ### Windows:
 
-1. Open the `Command Prompt` or `PowerShell`.
-2. type on your prompt:
+1. Open the `Command Prompt` or the `PowerShell` app.
+2. type on your prompt the command behavior:
 ```powershell
 pip install SearchGooglePy
 ```
@@ -38,3 +38,16 @@ pip install SearchGooglePy
 ```
 python3 -m pip install SearchGooglePy
 ```
+
+## Quick Start
+
+A quick piece of code to get a quick start:
+
+```py
+import searchgpy
+
+google_search_engine = searchgpy.GoogleSearchEngine()
+google_search_engine.search_text('Hello World !')
+```
+
+This piece of code will search on google the sentence : `Hello World !`. Take a look at the `Table of Content` at https://boubajoker.github.io/SearchGooglePy/Link=Table_Of_Content for more content !

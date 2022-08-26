@@ -10,3 +10,8 @@
     - Updated Github / Pypi Docs :books: :octocat: !
     - Base Web-Documentation builded and hosted (not yet ready, sorry) !
 }
+- v0.0.4 Alpha B-2 {master} {
+    - Updated Github / Pypi Docs: :books :octocat: !
+    - Web-Documentation is now ready :books: !!
+    - Fixed some bugs :bug: !
+}

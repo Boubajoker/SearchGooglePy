@@ -9,7 +9,7 @@ assignees: ''
 
 # Bug Report
 
-**!WARN!: If your browser does not correspond to the dependencies (see [README.md](README.md) file for more info), it may not work !**
+**!WARN!: If your desktop / python interpreter does not correspond to the dependencies (see [README.md](README.md) file for more info), it may not work !**
 
 **Describe the bug**
 A clear and concise description of what the bug is.

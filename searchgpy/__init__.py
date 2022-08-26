@@ -1,5 +1,5 @@
 # SearchGooglePy Copyright (c) Boubajoker 2022. All right reserved. Project under MIT License.
-# See https://github.com/Boubajoker/SearchGooglePy/CopyRight.txt for more info.
+# See https://github.com/Boubajoker/SearchGooglePy/blob/master/CopyRight.txt for more info.
 from typing import *
 import webbrowser
 
@@ -17,7 +17,7 @@ class GoogleSearchEngine:
             webbrowser.open(self.base_google_search_url)
             print('Redirecting to URL:', self.base_google_search_url)
 
-    def search_img(self, text, downlaod=False) -> Any:
+    def search_img(self, text) -> Any:
         self.base_google_img_url = 'https://www.google.com/search?q=' + text + '&sxsrf=ALiCzsYlU6o2Uq4WIlhJlkHR20Dh5VFItQ:1661285028951&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjXupWA4d35AhVE-YUKHQIaBFIQ_AUoAXoECAIQAw&biw=1879&bih=1008&dpr=1'
 
         if text == None:

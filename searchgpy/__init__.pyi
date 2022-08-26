@@ -56,7 +56,7 @@ class GoogleSearchEngine:
         """
         pass
     
-    def search_img(self, text: str, download: str = False) -> Any:
+    def search_img(self, text: str) -> Any:
         """
         ### `search_img` function:
 
