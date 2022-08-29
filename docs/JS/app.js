@@ -1,31 +1,21 @@
-let base_url = `${document.location.origin}${document.location.pathname}`;
-let links_paths = {
-    'paths' : {
-        'index' : './index.html',
-        'credits' : 'https://github.com/Boubajoker/SearchGooglePy/blob/ThirdPartyNotices.md',
-        'install' : '#install',
-        'use' : '#use',
-        'table_of_content' : '#table_of_content'
-    }
-}
+let date = new Date();
+let nav = document.querySelector('nav');
+let footer = document.querySelector('footer');
 
-if (document.URL == base_url + `?Link=Home`) {
-    window.location = links_paths.paths.index;
+function dark_mode() {
+    footer.style.background = 'rgb(15, 15, 15)';
+    nav.style.background = 'rgb(15, 15, 15)';
+    document.body.style.background = 'rgb(55, 55, 55)';
 };
 
-if (document.URL == base_url + `?Link=Credits`) {
-    window.location = links_paths.paths.credits;
+function light_mode() {
+    footer.style.background = 'rgb(255, 255, 255)';
+    nav.style.background = 'rgb(255, 255, 255)';
+    document.body.style.background = 'rgb(255, 255, 255)';
 };
 
-if (document.URL == base_url + `?Link=Install`) {
-    window.location = links_paths.paths.install;
+if (date.getHours() >= 19) {
+    this.dark_mode();
+} else {
+    this.light_mode();
 };
-
-if (document.URL == base_url + `?Link=Use`) {
-    window.location = links_paths.paths.use;
-};
-
-
-if (document.URL == base_url + `?Link=Table_Of_Content`) {
-    window.location = links_paths.paths.table_of_content;
-}

@@ -15,3 +15,8 @@
     - Web-Documentation is now ready :books: !!
     - Fixed some bugs :bug: !
 }
+- v0.0.5 Alpha B-2 {master} {
+    - Updated Web-Documentations :books: !!
+        - Fixed some bugs :bug:
+        - Added Automatic Light and Dark Mode !!
+}

@@ -3,7 +3,8 @@
 SearchGooglePy is a simple (un-official) Google Search API under python.
 
 This page will help you to [install](#install) and get a [quick start](#quick-start)
-
+___
+**!WARNNING!: This isn't an official google project it is just an API under python.**
 ___
 
 **A few advertisement and credits before you start :**
