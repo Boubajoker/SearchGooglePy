@@ -20,3 +20,12 @@
         - Fixed some bugs :bug:
         - Added Automatic Light and Dark Mode !!
 }
+- v0.0.6 Alpha B-2 {master} {
+    - Updated Github / Pypi Docs: :books: :octocat:
+    - Added new features :fire: !
+        - Added `search_shop` function :+1: !
+        - Fixed some bugs :bug: !
+    - Updated Web-Documentation :books: !
+        - Fixed some bugs :bug: !
+        - Added new features :fire: :100: !!
+}

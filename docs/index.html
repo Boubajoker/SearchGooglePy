@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="icon" href="./assets/icon/icon_32.svg">
+    <meta name="description" content="The Web-Documentation of the SearchGooglePy Python package !">
     <title>SearchGooglePy</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
         <button class="navbar-btns" id="dark_mode_btn">Dark Mode</button>
         <button class="navbar-btns" id="light_mode_btn">Light Mode</button>
     </nav>
-    <h1 class="main-title" id="main_title"><img src="./assets/icon/icon_48.svg" alt="">Search<a class="g-google">G</a><a class="o1-google">o</a><a class="o2-google">o</a><a class="g-google">g</a><a class="l-google">l</a><a class="e-google">e</a>Py</h1>
+    <h1 class="main-title" id="main_title"><img src="./assets/icon/icon_48.svg" alt="">Search<span class="g-google">G</span><span class="o1-google">o</span><span class="o2-google">o</span><span class="g-google">g</span><span class="l-google">l</span><span class="e-google">e</span>Py</h1>
     <div class="project-desc" id="project_desc">
         <p class="paragraphs">SearchGooglePy is a simple (un-official) Google Search API under python.</p>
     </div>
@@ -32,7 +33,8 @@
         <ul>
             <li>type on your prompt the command behavior:</li>
         </ul>
-        <pre><a style="color: rgb(255, 255, 0)">pip</a> <a style="color: rgb(0, 115, 255);">install</a> SearchGooglePy</pre>
+        <pre id="code_01"><span style="color: rgb(255, 255, 0)">pip</span> <span style="color: rgb(0, 115, 255);">install</span> SearchGooglePy</pre>
+        <button class="copy-btns" id="copy_btn_01">Copy</button>
         <h3 class="sections-titles">Linux / MacOS:</h3>
         <ul>
             <li>Open the <tt>Shell</tt></li>
@@ -40,12 +42,14 @@
         <ul>
             <li>type on your prompt the command behavior:</li>
         </ul>
-        <pre>python3 <a style="color: rgb(0, 115, 255);">-</a>m <a style="color: rgb(255, 255, 0);">pip</a> <a style="color: rgb(0, 115, 255);">install</a> SearchGooglePy</pre>
+        <pre id="code_02">python3 <span style="color: rgb(0, 115, 255);">-</span>m <span style="color: rgb(255, 255, 0);">pip</span> <span style="color: rgb(0, 115, 255);">install</span> SearchGooglePy</pre>
+        <button class="copy-btns" id="copy_btn_02">Copy</button>
     </section>
     <section id="use">
         <h2 class="sections-titles">Use</h2>
         <p class="paragraphs">A quick piece of code to get a quick start:</p>
-        <pre><a style="color: rgb(197, 134, 192);">import</a> <a style="color: rgb(0, 255, 0);">searchgpy</a><br><br><a style="color: rgb(0, 115, 255);">google_search_engine</a> = <a style="color: rgb(0, 255, 0);">searchgpy</a>.<a style="color: rgb(0, 255, 0);">GoogleSearchEngine</a><a style="color: rgb(255, 255, 0);">()</a><br><a style="color: rgb(0, 115, 255);">google_search_engine</a>.<a style="color: rgb(255, 255, 0);">search_text(</a><a style="color: rgb(206 145 120);">'Hello World !'</a><a style="color: rgb(255, 255, 0);">)</a></pre>
+        <pre id="code_03"><span style="color: rgb(197, 134, 192);">import</span> <span style="color: rgb(0, 255, 0);">searchgpy</span><br><br><span style="color: rgb(0, 115, 255);">google_search_engine</span> = <span style="color: rgb(0, 255, 0);">searchgpy</span>.<span style="color: rgb(0, 255, 0);">GoogleSearchEngine</span><span style="color: rgb(255, 255, 0);">()</span><br><span style="color: rgb(0, 115, 255);">google_search_engine</span>.<span style="color: rgb(255, 255, 0);">search_text(</span><span style="color: rgb(206 145 120);">'Hello World !'</span><span style="color: rgb(255, 255, 0);">)</span></pre>
+        <button class="copy-btns" id="copy_btn_03">Copy</button>
         <p class="paragraphs">This piece of code will search on google the sentence : <tt>Hello World !</tt>. Take a look at the <a href="https://boubajoker.github.io/SearchGooglePy/?Link=Table_Of_Content">Table of Content</a> for more content !</p>
     </section>
     <section id="table_of_content">
@@ -56,20 +60,24 @@
                 <th>Description</th>
             </tr>
             <tr>
-                <td><a>SearchGooglePy</a></td>
+                <td><span>SearchGooglePy</span></td>
                 <td><p>The SuperClass that initialize the module.</p></td>
             </tr>
             <tr>
-                <td><a>search_text</a></td>
+                <td><span>search_text</span></td>
                 <td><p>The <tt>search_text</tt> function is the function that is used to search on Google's (<tt>www.google.com</tt>) web-engine.</p></td>
             </tr>
             <tr>
-                <td><a>search_img</a></td>
+                <td><span>search_img</span></td>
                 <td><p>The <tt>search_img</tt> function has the role to search images on Google's (<tt>www.google.com</tt>) web-engine.</p></td>
             </tr>
             <tr>
-                <td><a>search_news</a></td>
+                <td><span>search_news</span></td>
                 <td><p>The <tt>search_news</tt> function has the role to search news on Google's (<tt>www.google.com</tt>) web-engine.</p></td>
+            </tr>
+            <tr>
+                <td><span>search_shop</span></td>
+                <td><p>The <tt>search_shop</tt> function has the role to search products on Google's (<tt>www.google.com</tt>) web-engine.</p></td>
             </tr>
         </table>
     </section>

@@ -46,32 +46,46 @@ class GoogleSearchEngine:
         """
         pass
 
-    def search_text(self, text: str=None) -> Any: 
+    def search_text(self, text: str, log: str) -> Any: 
         """
         ### `search_text` function:
 
         The `search_text` function has the role to search on Google's (`www.google.com`) web-engine.
 
         @param `text` --- The text that you want to search on google.
+        @param `log` --- Print the URL that wil be given when the value is `True`.
         """
         pass
     
-    def search_img(self, text: str) -> Any:
+    def search_img(self, text: str, log: str) -> Any:
         """
         ### `search_img` function:
 
         The `search_img` function has the role to search images on Google's (`www.google.com`) web-engine.
 
         @param `text` --- The text that you want to search on google to display images.
+        @param `log` --- Print the URL that wil be given when the value is `True`.
         """
         pass
     
-    def search_news(self, text: str) -> Any:
+    def search_news(self, text: str, log: str) -> Any:
         """
         ### `search_news` function:
 
         The `search_news` function has the role to search news on Google's (`www.google.com`) web-engine.
         
         @param `text` --- The text that you want to search on google to display news.
+        @param `log` --- Print the URL that wil be given when the value is `True`.
+        """
+        pass
+    
+    def search_shop(self, text: str, log: str) -> Any:
+        """
+        ### `search_shop` function:
+
+        The `shearch_shop` function has the role to search products on Google's (`wwww.google.com`) web-engine.
+
+        @param `text` --- The text that you want to search on google to display products.
+        @param `log` --- Print the URL that wil be given when the value is `True`.
         """
         pass
