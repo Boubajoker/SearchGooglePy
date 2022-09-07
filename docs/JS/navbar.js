@@ -4,7 +4,7 @@ let dark_mode_btn = document.getElementById('dark_mode_btn');
 let light_mode_btn = document.getElementById('light_mode_btn');
 
 home_btn.addEventListener('click', ()=>{
-    window.location = './';
+    window.location.reload();
 });
 
 credits_btn.addEventListener('click', ()=>{

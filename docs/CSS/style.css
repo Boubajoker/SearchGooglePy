@@ -9,6 +9,18 @@ img {
     height: 50px;
 }
 
+text {
+    background: rgb(26, 115, 232, 0.950);
+    margin-left: 170px;
+    margin-top: -20px;
+    border-radius: 15px;
+    width: 150px;
+    text-align: center;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
 a {
     color: rgb(26, 115, 232, 0.950);
     text-decoration: none;
@@ -117,18 +129,23 @@ footer {
 
 .g-google {
     color: rgb(26, 115, 232, 0.950);
+    animation: g-enter ease-in 1s;
 }
 .o1-google {
     color: rgb(255, 0, 0);
+    animation: o1-enter ease-in 1.5s;
 }
 .o2-google {
     color: rgb(255, 125, 0);
+    animation: o2-enter ease-in 2s;
 }
 .l-google {
     color: rgb(0, 255, 0);
+    animation: l-enter ease-in 2.5s;
 }
 .e-google {
     color: rgb(255, 0, 0);
+    animation: e-enter ease-in 3s;
 }
 
 .warn-paragraph {
@@ -147,4 +164,70 @@ footer {
 }
 ::-webkit-scrollbar-thumb:hover {
     background-color: rgb(0, 0, 0, 0.470);
+}
+
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    } to {
+        opacity: 0;
+    }
+}
+
+/*Google Entry*/
+@keyframes g-enter {
+    from {
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 0px 5px rgb(26, 115, 232, 0.950);
+    } to {
+        color: rgb(26, 115, 232, 0.950);
+    }
+}
+
+@keyframes o1-enter {
+    from {
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 0px 5px rgb(255, 0, 0);
+    } to {
+        color: rgb(255, 0, 0);
+    }
+}
+
+@keyframes o2-enter {
+    from {
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 0px 5px rgb(255, 125, 0);
+    } to {
+        color: rgb(255, 125, 0);
+    }
+    
+}
+
+@keyframes l-enter {
+    from {
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 0px 5px rgb(0, 255, 0);
+    } to {
+        color: rgb(0, 255, 0);
+    }
+    
+}
+
+@keyframes e-enter {
+    from {
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 0px 5px rgb(255, 0, 0);
+    } to {
+        color: rgb(255, 0, 0);
+    }
+    
 }

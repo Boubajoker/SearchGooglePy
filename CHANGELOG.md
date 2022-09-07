@@ -29,3 +29,9 @@
         - Fixed some bugs :bug: !
         - Added new features :fire: :100: !!
 }
+- v0.0.7 Alpha C-3 {master} {
+    - Updated Github / Pypi Docs: :books: :octocat:
+    - Updated Web-Documentation :books: !
+        - Fixed some bugs :bug: !
+        - Added new features :fire: :100: !!
+}
